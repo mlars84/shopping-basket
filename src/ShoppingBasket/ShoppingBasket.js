@@ -8,12 +8,6 @@ export default class ShoppingBasket {
     this.items[productId] = quantity
   }
 
-  productExistsInInventory(id) {
-    return this.inventory.products.findIndex(product => {
-      return product.id == id
-    }) == -1 ? false : true
-  }
-
   expenseBreakdown() {
     let total = 0
     let tax = []
@@ -41,5 +35,5 @@ export default class ShoppingBasket {
     }
 
     return output
-  } 
+  }
 }
