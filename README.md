@@ -1,7 +1,7 @@
 ## Execution instructions:
-    - `yarn` to install dependencies
-    - `yarn test` to execute tests with es6 support
-    - `yarn output` to execute output script with babel-node
+- `yarn` to install dependencies
+- `yarn test` to execute tests with es6 support
+- `yarn output` to execute output script with babel-node
 
 The input and output amounts differed, so I opted to go with the output amounts.
 Also, it appears that the importDuty was left out of the output amounts, so
